@@ -99,8 +99,8 @@
                   place
                 </p>
                 <a
-                  href="#"
-                  onclick="downloadFile()"
+                  href="./asset/petgo.apk"
+                  download="petgo.apk"
                   class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft"
                   >Download APK</a
                 >
@@ -130,7 +130,7 @@
     </div>
     <script>
       function downloadFile() {
-        const fileUrl = "./asset/apk/petgo.apk"; // The file path
+        const fileUrl = "./asset/petgo.apk"; // The file path
         const link = document.createElement("a"); // Create an anchor element
         link.href = fileUrl; // Set the link's href to the file path
         link.download = "petgo.apk"; // Set the file name for download
